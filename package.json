@@ -1,5 +1,6 @@
 {
   "name": "52-17",
+  "private": true,
   "npmClient": "yarn",
   "useWorkspaces": true,
   "workspaces": [
