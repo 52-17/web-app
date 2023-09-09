@@ -2,26 +2,39 @@
   "name": "timer",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "description": "> TODO: description",
   "author": "",
   "homepage": "https://github.com/52-17/web-app#readme",
   "license": "MIT",
-  "main": "lib/timer.js",
+  "main": "dist/index.js",
   "directories": {
-    "lib": "lib",
+    "doc": "doc",
     "test": "__tests__"
   },
   "files": [
-    "lib"
+    "dist"
   ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/52-17/web-app.git"
   },
-  "scripts": {
-    "test": "node ./__tests__/timer.test.js"
-  },
   "bugs": {
     "url": "https://github.com/52-17/web-app/issues"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "test": "node ./__tests__/timer.test.js"
+  },
+  "dependencies": {
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "typescript": "^5.0.2",
+    "vite": "^4.4.5",
+    "vue-tsc": "^1.8.5"
   }
 }
