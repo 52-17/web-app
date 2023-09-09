@@ -1,13 +1,12 @@
 {
-  "name": "app",
+  "name": "timer",
   "version": "0.1.0",
   "private": true,
-  "sideEffects": false,
   "description": "> TODO: description",
   "author": "",
   "homepage": "https://github.com/52-17/web-app#readme",
   "license": "MIT",
-  "main": "lib/app.js",
+  "main": "lib/timer.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -20,7 +19,7 @@
     "url": "git+https://github.com/52-17/web-app.git"
   },
   "scripts": {
-    "test": "node ./__tests__/app.test.js"
+    "test": "node ./__tests__/timer.test.js"
   },
   "bugs": {
     "url": "https://github.com/52-17/web-app/issues"
