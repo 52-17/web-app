@@ -1,0 +1,16 @@
+{
+  "name": "52-17",
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "lerna": "^7.2.0"
+  },
+  "volta": {
+    "node": "18.17.1",
+    "yarn": "3.6.3"
+  }
+}
